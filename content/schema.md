@@ -14,7 +14,7 @@
 - query — Wikimedia Commons 检索词（英文，具体名词优先学名）
 
 ## plate — 详情页图版（按 type 取字段）
-- type: "bars" — ti/tie 标题；rows[{k,ke,v,w(0-100),dash?}]；note/notee 脚注
+- bars 已废止（2026-08-18）：不再使用条形对比图；数值对比改用 curve / stat，或直接 slot 实物图
 - type: "curve" — ti/tie；vals[] 数值序列；xa/xb/xmid 轴标；mark/marke 标记点
 - type: "stat" — ti/tie；big 大数字；unit/unite 单位；note/notee
 - type: "slot" — 纯图版：img（Commons 图 URL）+ imgTitle
@@ -29,4 +29,4 @@
 1. 事实可溯源，srcMeta 必须真实存在
 2. 问题有反转；纯数量问答整批 ≤1 张
 3. 插图必须与内容直接相关（宁缺毋滥）
-4. bars 图表整批 ≤2 张；图表必须讲出对比故事
+4. 禁用 bars 线表；curve / stat 必须讲真实数字故事，否则回到实物图

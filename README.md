@@ -4,7 +4,7 @@
 
 ## 结构
 - content/latest.json — App 读取的当前内容包（永远指向最新）
-- content/cards-vN.json — 每次归档的不可变快照（v1 = 36 张，2026-08-18）
+- content/cards-vN.json — 每次归档的不可变快照（v1 = 36 张；v2 = 45 张，废止 bars 线表，2026-08-18）
 - content/schema.md — 卡片字段规范
 
 ## App 如何取数
